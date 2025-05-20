@@ -7,7 +7,7 @@ const Contact = () => {
       {/* Contact Hero */}
       <section className="contact-hero">
         <div className="container">
-          <h1>Get In Touch</h1>
+          <h1 className='get'>Get In Touch</h1>
           <p>We'd love to hear from you</p>
         </div>
       </section>

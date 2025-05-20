@@ -30,7 +30,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -103,14 +103,13 @@ a {
   font-size: 1.1rem;
 }
 /* Navbar */
-/* Navbar */
+
 .navbar {
   background-color: var(--white);
   box-shadow: var(--shadow);
   position: sticky;
   top: 0;
   z-index: 100;
-  padding: 10px 0;
 }
 
 .navbar .container {
@@ -527,7 +526,9 @@ a {
   color: var(--white);
   text-align: center;
 }
-
+.get{
+  color: #E3D5C8;
+}
 .contact-content {
   padding: 80px 0;
 }
@@ -650,5 +651,6 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
 
 
